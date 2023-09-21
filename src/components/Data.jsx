@@ -57,8 +57,10 @@ const Data = () => {
       </h1>
       <h3 className="home_subtitle">Web Designer</h3>
       <p className="home_description">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
-        blanditiis deserunt sed sit laboriosam dolor ratione.
+        Welcome to my professional software engineering portfolio, where I
+        explore my coding journey with passion, dedicated to innovating through
+        code and building exceptional software solutions that make a meaningful
+        difference.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
