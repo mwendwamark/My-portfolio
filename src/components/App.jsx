@@ -5,15 +5,18 @@ import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
 import Services from "./Services"
+import Qualifications from "./Qualifications";
+
 function App() {
   return (
     <>
       <Header />
       <main className="main">
         <Home />
-        <About/>
+        <About />
         <Skills />
         <Services />
+        <Qualifications />
       </main>
     </>
   );
