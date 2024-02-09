@@ -8,6 +8,7 @@ import Services from "./Services";
 import Qualifications from "./Qualifications";
 import Testimonial from "./Testimonial";
 import Contacts from "./Contacts";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Qualifications />
         <Testimonial />
         <Contacts />
+        <Footer />
       </main>
     </>
   );

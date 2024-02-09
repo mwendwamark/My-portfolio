@@ -16,7 +16,7 @@ const Social = () => {
         className="home_social-icon"
         target="_blank"
       >
-        <i className="uil uil-dribbble"></i>
+        <i className="bx bxl-linkedin" style={{"color": "rgba(0,0,0,0.68)"}}></i>{" "}
       </a>
 
       <a
