@@ -4,9 +4,10 @@ import Header from "./Header";
 import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
-import Services from "./Services"
+import Services from "./Services";
 import Qualifications from "./Qualifications";
 import Testimonial from "./Testimonial";
+import Contacts from "./Contacts";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <Skills />
         <Services />
         <Qualifications />
-        <Testimonial/>
+        <Testimonial />
+        <Contacts />
       </main>
     </>
   );
