@@ -18,7 +18,7 @@ const Contacts = () => {
     e.target.reset();
   };
   return (
-    <section className="contact section" id="contact">
+    <section className="contact section" id="contacts">
       <h2 className="section_title">Get in touch</h2>
       <span className="section_subtitle">Contact me </span>
 
@@ -95,6 +95,7 @@ const Contacts = () => {
               <input
                 type="email"
                 name="email"
+                required
                 id="client_email"
                 className="contact_form-input"
                 placeholder="Insert your email"
@@ -109,6 +110,7 @@ const Contacts = () => {
                 name="project"
                 cols="30"
                 rows="10"
+                required
                 className="contact_form-input"
                 placeholder="Write your project"
               ></textarea>
