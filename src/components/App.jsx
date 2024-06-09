@@ -10,6 +10,7 @@ import Testimonial from "./Testimonial";
 import Contacts from "./Contacts";
 import Footer from "./Footer";
 import Scrollup from "./Scrollup";
+import Portfolio from "./Portfolio";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Skills />
         <Services />
         <Qualifications />
+        <Portfolio />
         <Testimonial />
         <Contacts />
       </main>
