@@ -59,3 +59,46 @@
     font-size: 1rem;
     color: #333;
 }
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .portfolio-contents {
+        flex: 0 0 45%;
+        /* 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .portfolio-contents {
+        flex: 0 0 100%;
+        /* 1 column on small screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio_title {
+        font-size: 1.8rem;
+    }
+
+    .section_subtitle {
+        font-size: 1rem;
+    }
+
+    .portfolio-contents p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio_title {
+        font-size: 1.6rem;
+    }
+
+    .section_subtitle {
+        font-size: 0.9rem;
+    }
+
+    .portfolio-contents p {
+        font-size: 0.8rem;
+    }
+}
