@@ -9,9 +9,10 @@ import GRWC from "../assets/GRWC.png";
 const Portfolio = () => {
   return (
     <section className="portfolio section" id="portfolio">
-      <h2 className="portfolio_title">Projects</h2>
-      <span className="section_subtitle">My Projects</span>
-      <div className="portfolio-container container grid">
+      <h2 className="portfolio_title">Projects Showcase</h2>
+      <span className="section_subtitle">Recent Work</span>
+      
+      <div className="portfolio-container">
         <div className="portfolio-contents">
           <a
             href="https://mark-nthei.vercel.app/"
@@ -60,7 +61,7 @@ const Portfolio = () => {
               </div>
             </div>
           </a>
-          <p className="project-title">Gemini AI clone</p>
+          <p className="project-title">Gemini AI Clone</p>
         </div>
 
         <div className="portfolio-contents">
@@ -73,11 +74,11 @@ const Portfolio = () => {
               <img src={KejaConnect} alt="Keja Connect" />
               <i className="bx bx-link"></i>
               <div className="project-description">
-                A platform for connecting tenants, (University Students) and landlords having residential apartments arpund universities in Kenya (Work in progress).
+                A platform connecting university students with landlords offering apartments near Kenyan universities.
               </div>
             </div>
           </a>
-          <p className="project-title">Keja Connect (Work in progress)</p>
+          <p className="project-title">Keja Connect</p>
         </div>
 
         <div className="portfolio-contents">
@@ -90,7 +91,7 @@ const Portfolio = () => {
               <img src={GRWC} alt="GRWC" />
               <i className="bx bx-link"></i>
               <div className="project-description">
-                A website I made for my church. 
+                A modern website developed for a church community with service information and event management.
               </div>
             </div>
           </a>

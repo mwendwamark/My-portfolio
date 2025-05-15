@@ -22,7 +22,7 @@ const About = () => {
             pages with UI/ UX user interface. I have six months of experience
             and my Technical Mentors are happy with the projects carried out
           </p>
-          <a download="" href= {MyCv} className="button button--flex">
+          <a download="MyCV.pdf" href= {MyCv} className="button button--flex">
             Download CV
             <svg
               className="button__icon"
